@@ -42,11 +42,11 @@ body {
 }
 .block-wh{
     text-align: center;
-    margin-top: 6%;
+    margin-top: 1%;
 }
 .wh-hg-img{
     width: 125%;
-    height: 250%;
+    height: 230%;
 }
 .shadow-2xl {
     --tw-shadow: 0 25px 50px -12px rgba(0,0,0,.90);
@@ -118,7 +118,7 @@ body {
         right: 30px;
     }
     .block-wh {
-        margin-top: 25%;
+        margin-top: 15%;
     }
     .btn-access-address {
         margin-left: 0px;
