@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Invitation au Mariage de Imane & Ghassan</title>
+    <link rel="stylesheet"  href="/im_gh.css"/>
+    <link rel="shortcut icon" type="image/png" href="/media/rings.png">
+    
+</head>
+<body>
+<main class="block-wh">
+    <a class="btn-access-address" href="https://goo.gl/maps/owRY6tJD4jGmnBUMA">Salle de fête localisation</a>
+    <div id="f1_container">
+        <div id="f1_card" class="shadow">
+            <div class="front face">
+                <img class="top img-change shadow-2xl wh-hg-img" src="/media/recto.png"/>
+            </div>
+            <div class="back face center">
+                <img class="bottom img-change shadow-2xl wh-hg-img" src="/media/verso.png"/>
+            </div>
+        </div>
+    </div>
+</main>
+<script>
+    let f1_container=document.getElementById('f1_container');
+    f1_container.addEventListener('click',function() {
+        let f1Card=document.getElementById('f1_card');
+        f1Card.classList.toggle("transparent");
+    });
+</script>
+</body>
+</html>
